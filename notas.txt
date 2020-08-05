@@ -1,1 +1,4 @@
 este blog es para anotar de una mejor manera todo lo concerniente a git y github
+
+Con touch puedo agragar un archivo a la carpeta creada con mkdir.
+para ver el contenido de un archivo en mi consola bash, lo hago con cat, memuestra rapidamente el contenido del archivo
