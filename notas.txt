@@ -1,0 +1,1 @@
+este blog es para anotar de una mejor manera todo lo concerniente a git y github
