@@ -9,3 +9,64 @@ con el comando rm borro archivos.
 con rm help la consola nos muestra los diferentes tipos de rm y para que sirven
 cuando hacemos el git innit se crea una carpeta llamada .git que es una base de datos que guarda los cambios echos 
 git show muestra los cambios echos en mi archivo
+
+git log --stat explica el numero de lineas que se cambiaron brevemente.
+git shortlog Indica el numero de commits realizado por un usuario, mostrando el usuario y nombre del commit
+git log --oneline te el id del commit y el nombre
+
+cuando hacemos un git commit enviamos lo que esta en el staigin al repositorio local.
+
+cuando queremos traer datos de un reposirotio remoto lo hacemos con git clone + la url Se rae una copia del master a tu directorio y crea la base de datos de todos los cambios historicos en el repositorio, el staigin queda quieto.
+cuando quiero enviar algo de mi repositorio local al repositorio remoto lo hago con 
+git push
+
+cuando quiero traer algo del repositorio remoto lo hago con el comando
+git pull Copia el repositorio local, la base de datos y copia el directorio
+
+$ eval $(ssh-agent -s) es una forma de hacer conexion de las llave publicas en el entorno del pc.
+evalua las llaves del entorno
+
+una vez se crea una llave se debe agregar asi
+
+con el signo de la ~ y es un atajo 
+
+$ ssh-add ~/.ssh/id_rsa Con este comando agredo la llave privada
+
+$ git remote -v Nos muestra la url de nuestro repositorio
+
+CUANDO CREO la llave ssh y cambio la rul https a shh tengo que ir al comando y cambiar la url
+
+ETIQUETAS
+
+git log --all --graph Muestra el historial de forma grafica cambios echos y los echos en los branch
+
+para crear tun tag copiamos el hash del commit
+git tag -a v0.1 -m"resultado de las primas clases" aqui el hash del cmmit
+para saber que tag es utilizamos
+git show-ref --tags
+
+los tags se utilizan en github en su mayotia entonces lo enviamos.
+primero recuerda git pull origin master todo lo que esta en internet te lo trares a tu entorno
+y para enviar el tag es asi $ git push origin --tags
+
+para borrar un tag git tag -d y el nombre del tag este lo borra de git pero no de github para borarlo de git hub utilizas
+git push origin :refs/tags/el nombre del tag a borrar.
+COMO ENVIAR DIFERENTES RAMS AL SERVIDOR DE GITHUB 
+
+git show-branch Muestra los branch y su historia rapidamente
+
+
+FLUJO DE TRABAJO CUANDO HAY DOS PROGRAMADORES TRABAJNDO EN DOS PROYECTOS}
+
+GIT CONFIG -L muestra tu perfil por asi decirlo
+
+cuando vas a trabajar con otros usuarios no tiene necesidad de hacer un git init, sino clonas el repositorio remoto
+que pasa si quiero traerme inf de otro proyecto ta iniciado?
+
+git clones y aqui la url del repositorio (si el repositorio es publico lo puedes copiar)
+
+cuando realizo un cambio al proyecto que se este trabajando, antes de enviar cualquier inf hago un git pull origin master. (trae solo la rama master)
+
+ya puedes enviar con git push origin master, te pide usuario y contraseña. pero si no te agregan al repositorio no puedes enviar push, tienes que esperar a que te agregen.
+
+para agregar vas a setting del repositorio y luego a colborates. te van a buscar por tu email, tembie puede haber un nombre de usuario, en caso de que quieras que tu email sea privado.
