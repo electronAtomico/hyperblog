@@ -1,15 +1,39 @@
 body{
     color: firebrick;
+<<<<<<< HEAD
     text-align: center;
     font-family: arial;
     font-size: 16px;
     margin: 0;
     padding: 0;
+=======
+    tex-alaing: center;
+    font-family: arial;
+    font-size: 16px;   
+     margin: 0;
+     padding: 0;
+}
+
+#cabecera
+{
+    background: #8888ff;
+    color: white;
+    margin: 0;
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+#cabecera #tagline{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
+>>>>>>> cabecera
 }
 #container
 {
     width: 70%;
     padding: 1em;
+<<<<<<< HEAD
     text-align: left;
     border: 1px solid #ddd;
     margin: 0 auto;
@@ -17,4 +41,19 @@ body{
 #container
 {
     font-size: 20px;
+=======
+    text-align: left; 
+    border: ipx solid #DDD;
+    margin: 0 auto;
+}
+
+#container h1
+{
+    font-size: 20px;   
+
+}
+#post
+{
+    padding: 1em;
+>>>>>>> cabecera
 }

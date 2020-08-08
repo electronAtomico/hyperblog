@@ -1,0 +1,11 @@
+este blog es para anotar de una mejor manera todo lo concerniente a git y github
+
+Con touch puedo agragar un archivo a la carpeta creada con mkdir.
+para ver el contenido de un archivo en mi consola bash, lo hago con cat, memuestra rapidamente el contenido del archivo.
+
+Hay un comando para ver toda la historia de los comandos echos en la consola es history. si quiero volver a escribir un comando lo invoco con el numero que se muestra con !32 es ejemplo.
+con el comando rm borro archivos.
+
+con rm help la consola nos muestra los diferentes tipos de rm y para que sirven
+cuando hacemos el git innit se crea una carpeta llamada .git que es una base de datos que guarda los cambios echos 
+git show muestra los cambios echos en mi archivo
