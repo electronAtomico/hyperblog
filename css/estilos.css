@@ -57,3 +57,10 @@ body{
     padding: 1em;
 >>>>>>> cabecera
 }
+#footer
+{
+    background: #777;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+}
